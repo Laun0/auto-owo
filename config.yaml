@@ -1,0 +1,60 @@
+channelId: "1357509781492994078"
+owoPrefix: "owo"
+botControlPrefix: "//"
+loggerLevel: "info"
+
+botSpecificSettings:
+  owoBotId: "408785106942164992"
+  captchaKeywords:
+    - "captcha"
+    - "verify that you are human"
+    - "please type the following message"
+    - "dm me with the following"
+    - "slow down!"
+    - "you're being too hasty!"
+  checkActionsPool:
+    - "inv"
+    - ["cash"]
+    - ["buy", "1"]
+    - ["buy", "2"]
+
+intervals:
+  minGrindAction: 16200
+  maxGrindAction: 18700
+  minorActionDelayMin: 1300
+  minorActionDelayMax: 3300
+  minCheckAction: 79000
+  maxCheckAction: 139000
+  pray: 309000
+  daily: 86709000
+
+curse:
+  enabled: false
+  targetUserId: ""
+  interval: 319000
+
+behavior:
+  commandsBeforeLongRest: 178
+  minLongRestDuration: 385000
+  maxLongRestDuration: 985000
+  chanceToRunCheckAction: 0.15
+  chanceToRunSellAction: 0.05
+
+autoSell:
+  enabled: false
+  raritiesToSell:
+    - "common"
+    - "uncommon"
+  sellCheckInterval: 3685000
+
+captcha:
+  maxAttemptsBeforeLongPause: 2
+  pauseDurationAfterMaxAttempts: 1885000
+
+actions:
+  hunt:
+    enabled: true
+  battle:
+    enabled: true
+  owo:
+    enabled: true
